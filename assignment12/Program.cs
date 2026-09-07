@@ -159,7 +159,48 @@
             // }
             #endregion
 
+            #region Exercise 4: Unique Email Validator
 
+            //// 1. Create a HashSet<string> with a case-insensitive comparer
+            //HashSet<string> emails = new HashSet<string>(StringComparer.OrdinalIgnoreCase);
+
+
+            //// 2. Add these emails
+            //emails.Add("ahmed@test.com");
+            //emails.Add("AHMED@test.com");
+            //emails.Add("sara@test.com");
+            //emails.Add("Sara@Test.Com");
+
+
+            //// 3. Print Count and explain why
+            //Console.WriteLine(emails.Count);
+            //Console.WriteLine("Because HashSet ignores duplicate emails regardless of uppercase or lowercase.");
+
+
+            //// 4. Create two sets: Set A = {1,2,3,4,5} and Set B = {4,5,6,7,8}
+            //HashSet<int> setA = new HashSet<int> { 1, 2, 3, 4, 5 };
+            //HashSet<int> setB = new HashSet<int> { 4, 5, 6, 7, 8 };
+
+
+            //// 5. Print the result of UnionWith, IntersectWith, ExceptWith
+            //HashSet<int> union = new HashSet<int>(setA);
+            //union.UnionWith(setB);
+            //Console.WriteLine(string.Join(", ", union));
+
+            //HashSet<int> intersect = new HashSet<int>(setA);
+            //intersect.IntersectWith(setB);
+            //Console.WriteLine(string.Join(", ", intersect));
+
+            //    HashSet<int> except = new HashSet<int>(setA);
+            //    except.ExceptWith(setB);
+            //    Console.WriteLine(string.Join(", ", except));
+
+
+            //    // 6. Use IsSubsetOf to check if {1,2} is a subset of Set A
+            //    HashSet<int> subset = new HashSet<int> { 1, 2 };
+            //    Console.WriteLine(subset.IsSubsetOf(setA));
+            //}
+            #endregion
 
 
 
@@ -167,4 +208,5 @@
         }
     }
 }
+
     
