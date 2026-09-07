@@ -25,7 +25,7 @@
             //// 3
             //grades.Sort();
 
-            //Console.WriteLine("\nSorted Grades:");
+            //Console.WriteLine("Sorted Grades:");
             //foreach (int grade in grades)
             //{
             //    Console.WriteLine(grade);
@@ -68,6 +68,56 @@
             //    Console.WriteLine(grade);
             //}
             #endregion
+
+            # region Exercise 2: Leaderboard
+
+            //// 1. Add: 500="Ahmed", 200="Sara", 800="Ali", 350="Mona"
+            //SortedDictionary<int, string> players = new SortedDictionary<int, string>();
+
+            //players.Add(500, "Ahmed");
+            //players.Add(200, "Sara");
+            //players.Add(800, "Ali");
+            //players.Add(350, "Mona");
+
+
+            //// 2. Print all entries (they should be sorted by score automatically)
+            //foreach (var item in players)
+            //{
+            //    Console.WriteLine(item.Key + " = " + item.Value);
+            //}
+
+
+            //// 3. Access the first key and first value
+            //Console.WriteLine(players.First().Key);
+            //Console.WriteLine(players.First().Value);
+
+
+            //// 4. Check if score 500 exists
+            //Console.WriteLine(players.ContainsKey(500));
+
+
+            //// 5. Safely get the player with score 999
+            //if (players.TryGetValue(999, out string player))
+            //    Console.WriteLine(player);
+            //else
+            //    Console.WriteLine("Player not found");
+
+
+            //// 6. Remove the player with score 200 and print the updated list
+            //players.Remove(200);
+
+            //foreach (var p in players)
+            //{
+            //    Console.WriteLine(p.Key + " = " + p.Value);
+            //    }
+
+#endregion
+
+
+
+
+
+
         }
     }
 }
