@@ -69,7 +69,7 @@
             //}
             #endregion
 
-            # region Exercise 2: Leaderboard
+            #region Exercise 2: Leaderboard
 
             //// 1. Add: 500="Ahmed", 200="Sara", 800="Ali", 350="Mona"
             //SortedDictionary<int, string> players = new SortedDictionary<int, string>();
@@ -111,7 +111,53 @@
             //    Console.WriteLine(p.Key + " = " + p.Value);
             //    }
 
-#endregion
+            #endregion
+            #region Exercise 3: Phone Book
+            // 1. Create a Collection  with 4 contacts (name → phone number)
+
+            //    Dictionary<string, string> contacts = new Dictionary<string, string>
+            //{
+            //    { "Ahmed", "01012345678" },
+            //    { "Sara", "01123456789" },
+            //    { "Ali", "01234567890" },
+            //    { "Mona", "01567890123" }
+            //};
+
+
+            //    // 2. Add a new contact using [] syntax (add or update)
+            //    contacts["Omar"] = "01098765432";
+
+
+            //    // 3. Try adding a duplicate using .Add() — catch the exception and print the error
+            //    try
+            //    {
+            //        contacts.Add("Ahmed", "01111111111");
+            //    }
+            //    catch (ArgumentException ex)
+            //    {
+            //        Console.WriteLine(ex.Message);
+            //    }
+
+
+            //    // 4. Try adding a duplicate using .TryAdd() — print whether it succeeded
+            //    bool result = contacts.TryAdd("Sara", "01222222222");
+            //    Console.WriteLine(result);
+
+
+            //    // 5. Search for a contact that doesn’t exist
+            //    Console.WriteLine(contacts.ContainsKey("Khaled"));
+
+
+            //    // 6. Get a contact with a fallback of "Not Found"
+            //    Console.WriteLine(contacts.GetValueOrDefault("Khaled", "Not Found"));
+
+
+            //    // 7. Print all Keys on one line, then all Values on another line
+            //    Console.WriteLine(string.Join(", ", contacts.Keys));
+            //    Console.WriteLine(string.Join(", ", contacts.Values));
+            //}
+            // }
+            #endregion
 
 
 
@@ -121,3 +167,4 @@
         }
     }
 }
+    
